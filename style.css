@@ -6,8 +6,17 @@
     .date-box{
         width: 100%!important;
     }
+    .preview-headline{
+        font-size: 15px!important;
+        display: block!important;
+    }
+    .docx-text{
+        font-size: 13px!important;
+    }
+    .tag-btn{
+        margin-left: 0!important;
+    }
 }
-
 @media only screen and (max-width: 768px) {
     body{
         padding: 0!important;
@@ -112,25 +121,19 @@ label{
     text-align: center;
 
 }
-.files-wrapper{
-    width: 80%;
-    background-color: green;
-    height: 20px;
-}
 .v-line{
-    width: 1%;
+    width: 2%;
     height: 20px;
     background-color:#d1d3d1;
     margin: auto;
 }
 .v-line-bottom{
-    width: 1%;
+    width: 2%;
     height: 15px;
     background-color:#d1d3d1;
     margin: auto;
     margin-top: -4px
 }
-
 .img-size {
     height: 25px;
 }
@@ -144,4 +147,74 @@ label{
     font-size: 15px;
     color: rgba(0, 0, 0, 0.73);
     font-weight: bold;
+}
+.files-wrapper{
+    width: 80%;
+    height: 20px;
+}
+.file-wrapper-content{
+    display: flex;
+    margin-top: 16px;
+}
+.docx-img{
+    height: 45px;
+}
+.docx-details {
+    margin-left: 15px;
+}
+.preview-headline{
+    font-size: 20px;
+    font-weight: bold;
+}
+.preview-headline-bg{
+    background-color: rgba(3, 169, 244, 0.11);
+}
+.tag-btn{
+    border: 1px solid rgba(128, 128, 128, 0.23);
+    padding: 2px 7px 2px 7px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgba(128, 128, 128, 0.93);
+}
+.docx-text{
+    color: rgba(0, 0, 0, 0.75);
+}
+.text-underline{
+    text-decoration: underline;
+}
+.name-underline{
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.3);
+}
+.text-color{
+    color: rgba(0, 0, 0, 0.3);
+}
+.download-text{
+    text-transform: uppercase;
+    font-size: 13px;
+    text-decoration: underline;
+    font-weight: bold;
+    line-height: 27px;
+}
+a{
+    color: #03A9F4
+}
+.timeline-wrapper{
+    border: 1px solid grey;
+    color: white;
+    background-color: grey;
+    padding: 1px 3px 1px 3px;
+}
+.timeline-text{
+    color: rgba(255, 255, 255, 0.73);;
+}
+.end-line{
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.15);
+    width: 90%;
+    float: right;
+    margin-top: 51px;
+
 }
