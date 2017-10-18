@@ -1,0 +1,48 @@
+@media only screen and (max-width: 480px) {
+    body{
+        padding: 0!important;
+        margin: 0!important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body{
+        padding: 0!important;
+        margin: 0!important;
+    }
+}
+body{
+    padding: 0;
+    margin: 0 150px 0 150px;
+}
+.row {
+    display: flex;
+}
+.menu-bar {
+    width: 10%;
+}
+.content {
+    width: 90%;
+}
+.empty-box{
+    background-color: #03A9F4;
+    height: 40px;
+}
+.header{
+    background-color: rgba(214, 214, 214, 0.86);
+    height: 40px;
+}
+.search-result{
+    font-size: 20px;
+    font-weight: bold;
+    color:#606365;
+    margin-left: 15px;
+}
+.search-result-preview{
+    font-weight:100 ;
+    color: #546E7A;
+}
+.search-content {
+    height: 100px;
+    background-color:#ECEFF1;
+}
