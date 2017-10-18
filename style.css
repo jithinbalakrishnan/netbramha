@@ -1,3 +1,19 @@
+@media only screen and (max-width: 768px) {
+    body{
+        padding: 0!important;
+        margin: 0!important;
+    }
+    .date-box{
+        width: 100%!important;
+    }
+    .end-line{
+        width: 90%!important;
+        margin-left: 60px!important;
+        margin-top: 70px!important;
+
+
+    }
+}
 @media only screen and (max-width: 480px) {
     body{
         padding: 0!important;
@@ -16,16 +32,31 @@
     .tag-btn{
         margin-left: 0!important;
     }
-}
-@media only screen and (max-width: 768px) {
-    body{
-        padding: 0!important;
-        margin: 0!important;
+    .end-line{
+        width: 90%!important;
+        margin-left: 39px!important;
+        margin-top: 70px!important;
     }
-    .date-box{
-        width: 100%!important;
+    .files-wrapper-2{
+        display: none!important;
+    }
+    .file-wrapper-content-sm{
+        display: block!important;
+    }
+    .date-wrapper-2{
+        display: none!important;
+    }
+    .date-wrapper-sm{
+        display: block!important;
+    }
+    .search-content {
+        height: 1000px!important;
+    }
+    .preview-search-results {
+        height: 1000px!important;
     }
 }
+
 body{
     padding: 0;
     margin: 0 150px 0 150px;
@@ -115,6 +146,9 @@ label{
     display: flex;
 
 }
+.results-wrapper-2{
+
+}
 .date-wrapper{
     width: 20%;
     height: 70px;
@@ -162,10 +196,13 @@ label{
 .docx-details {
     margin-left: 15px;
 }
+
+
 .preview-headline{
     font-size: 20px;
     font-weight: bold;
 }
+
 .preview-headline-bg{
     background-color: rgba(3, 169, 244, 0.11);
 }
@@ -178,6 +215,7 @@ label{
     font-weight: bold;
     color: rgba(128, 128, 128, 0.93);
 }
+
 .docx-text{
     color: rgba(0, 0, 0, 0.75);
 }
@@ -214,7 +252,54 @@ a{
     height: 1px;
     background-color: rgba(128, 128, 128, 0.15);
     width: 90%;
-    float: right;
+    margin-left: 91px;
     margin-top: 51px;
 
+}
+.sc-shot-img{
+    height: 180px;
+}
+.screenshot-wrapper-2{
+    margin-left: 10px;
+}
+.preview-headline-1 {
+    font-size: 13px;
+
+}
+.docx-details-1{
+    margin-left: 0;
+}
+.docx-details-2{
+    margin-left: 21px;
+}
+.tag-btn-1{
+    margin-left: 3px;
+    font-size: 7px;
+    padding: 2px 5px 2px 5px;
+}
+.text-color-font{
+    font-size: 12px;
+}
+.name-underline-size{
+    font-size: 12px;
+}
+.download-text-2{
+    font-size: 9px;
+}
+.v-line-2{
+    width: 2%;
+    height: 210px;
+    background-color:#d1d3d1;
+    margin: auto;
+}
+.file-wrapper-content-sm{
+    margin-top: 16px;
+    margin-left: 10px;
+    display: none;
+}
+.date-wrapper-sm{
+    width: 20%;
+    height: 70px;
+    text-align: center;
+    display: none;
 }
