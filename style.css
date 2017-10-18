@@ -10,8 +10,15 @@
         width: 90%!important;
         margin-left: 60px!important;
         margin-top: 70px!important;
-
-
+    }
+    .end-line-2{
+        margin-top: 220px!important;
+    }
+    .end-line-3{
+        margin-top: 48px!important;
+    }
+    .end-line-4{
+        margin-top: 80px!important;
     }
 }
 @media only screen and (max-width: 480px) {
@@ -54,6 +61,28 @@
     }
     .preview-search-results {
         height: 1000px!important;
+    }
+    .end-line-2{
+        margin-top: 0!important;
+    }
+    .end-line-3{
+        margin-top: 49px!important;
+    }
+    .end-line-4{
+        margin-top: 270px!important;
+    }
+    .dp-wrapper {
+        display: none!important;
+    }
+    .dp-wrapper-sm{
+        display: block!important;
+        margin-top: -35px!important;
+    }
+    .dp-logo-sm{
+        margin-left: 30px!important;
+    }
+    .dp-content-sm{
+        margin-left: 30px!important;
     }
 }
 
@@ -302,4 +331,40 @@ a{
     height: 70px;
     text-align: center;
     display: none;
+}
+.end-line-2{
+    margin-top: 230px;
+}
+.end-line-3{
+    margin-top: 45px;
+}
+.discussion-text{
+    font-weight: bold;
+}
+.docx-text-1{
+    color: rgba(0, 0, 0, 0.5);
+}
+.text-proposal{
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 12px;
+}
+.text-under{
+    font-size: 12px;
+}
+.name-text{
+    font-weight: bold;
+    font-size: 13px;
+}
+.comment-text{
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.end-line-4{
+    margin-top: 45px;
+}
+.dp-wrapper-sm{
+    display: none;
+}
+.dp-wrapper-content-sm{
+    margin-left: 35px;
 }
