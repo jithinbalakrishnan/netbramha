@@ -3,12 +3,18 @@
         padding: 0!important;
         margin: 0!important;
     }
+    .date-box{
+        width: 100%!important;
+    }
 }
 
 @media only screen and (max-width: 768px) {
     body{
         padding: 0!important;
         margin: 0!important;
+    }
+    .date-box{
+        width: 100%!important;
     }
 }
 body{
@@ -47,7 +53,6 @@ body{
     background-color:#ECEFF1;
     padding: 15px 15px 0 15px;
 }
-
 input[type=text] {
     width: 100%;
     box-sizing: border-box;
@@ -96,4 +101,47 @@ label{
     margin-top: 30px;
     height: 500px;
     background-color: #ffffff;
+}
+.results-wrapper{
+    display: flex;
+
+}
+.date-wrapper{
+    width: 20%;
+    height: 70px;
+    text-align: center;
+
+}
+.files-wrapper{
+    width: 80%;
+    background-color: green;
+    height: 20px;
+}
+.v-line{
+    width: 1%;
+    height: 20px;
+    background-color:#d1d3d1;
+    margin: auto;
+}
+.v-line-bottom{
+    width: 1%;
+    height: 15px;
+    background-color:#d1d3d1;
+    margin: auto;
+    margin-top: -4px
+}
+
+.img-size {
+    height: 25px;
+}
+.date-box{
+    width: 40%;
+    height:20px;
+    background-color:#d1d3d1;
+    margin: auto;
+}
+.date-text{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.73);
+    font-weight: bold;
 }
