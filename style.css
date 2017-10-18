@@ -57,10 +57,10 @@
         display: block!important;
     }
     .search-content {
-        height: 1000px!important;
+        height: 1450px!important;
     }
     .preview-search-results {
-        height: 1000px!important;
+        height: 1300px!important;
     }
     .end-line-2{
         margin-top: 0!important;
@@ -118,7 +118,7 @@ body{
     color: #546E7A;
 }
 .search-content {
-    height: 600px;
+    height: 950px;
     background-color:#ECEFF1;
     padding: 15px 15px 0 15px;
 }
@@ -168,7 +168,7 @@ label{
 }
 .preview-search-results{
     margin-top: 30px;
-    height: 500px;
+    height: 845px;
     background-color: #ffffff;
 }
 .results-wrapper{
