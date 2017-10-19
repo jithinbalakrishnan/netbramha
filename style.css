@@ -20,6 +20,19 @@
     .end-line-4{
         margin-top: 80px!important;
     }
+    .search-content {
+        height: 1080px!important;
+    }
+    .preview-search-results {
+        height: 950px!important;
+    }
+    .shw-btn{
+        margin-top: 145px!important;
+        margin-right: 14px!important;
+    }
+    .line-sm{
+        display: block!important;
+    }
 }
 @media only screen and (max-width: 480px) {
     body{
@@ -57,10 +70,10 @@
         display: block!important;
     }
     .search-content {
-        height: 1450px!important;
+        height: 1570px!important
     }
     .preview-search-results {
-        height: 1300px!important;
+        height: 1420px!important
     }
     .end-line-2{
         margin-top: 0!important;
@@ -84,11 +97,26 @@
     .dp-content-sm{
         margin-left: 30px!important;
     }
+    .shw-btn{
+        margin-top: 185px!important;
+        margin-right: 8px!important;
+    }
+    .line-sm{
+        display: none!important;
+    }
+    .line-xs{
+        display: block!important;
+    }
+
 }
 
 body{
     padding: 0;
     margin: 0 150px 0 150px;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 .row {
     display: flex;
@@ -118,7 +146,7 @@ body{
     color: #546E7A;
 }
 .search-content {
-    height: 950px;
+    height: 1018px;
     background-color:#ECEFF1;
     padding: 15px 15px 0 15px;
 }
@@ -168,7 +196,7 @@ label{
 }
 .preview-search-results{
     margin-top: 30px;
-    height: 845px;
+    height: 890px;
     background-color: #ffffff;
 }
 .results-wrapper{
@@ -265,7 +293,7 @@ label{
     font-weight: bold;
     line-height: 27px;
 }
-a{
+.download-text> a{
     color: #03A9F4
 }
 .timeline-wrapper{
@@ -376,4 +404,24 @@ a{
 }
 .text-strike{
     text-decoration: line-through;
+}
+.shw-btn{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 75%;
+    float: right;
+    margin-right: 38px;
+    margin-top: 100px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 5px 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+.line-sm{
+    display: none;
+}
+.line-xs{
+    display: none;
 }
