@@ -434,14 +434,37 @@ label{
     text-align: center;
     display: block;
     padding-top: 19px;
-    background-color: rgb(90, 90, 90);
+    background-color: black;
 }
 .plus-btn{
+    line-height: 22px;
+    vertical-align: middle;
+    background-color: black;
+    color: white;
     height: 22px;
+    width: 22px;
+    border-radius: 37px;
     margin-top: 12px;
+    border: 2px solid grey;
+    margin-left: -3px;
+}
+.plus-btn-1{
+    line-height: 22px;
+    vertical-align: middle;
+    background-color: grey;
+    color: white;
+    height: 22px;
+    width: 22px;
+    border-radius: 37px;
+    margin-top: 12px;
+    border: 2px solid grey;
+    margin-left: -3px;
+}
+.plus-size{
+    font-size: 13px!important;
 }
 .logo-left{
-    margin-left: -15px;
+    margin-left: -22px;
 }
 .img-box-white{
     text-align: center;
@@ -452,4 +475,35 @@ label{
 }
 .padding-below{
     padding-bottom: 12px;
+
+}
+.fiv-icon{
+    background-color: #43A047;
+    border-radius: 37px;
+    height: 21px;
+    width: 21px;
+    vertical-align: middle;
+    line-height: 21px;
+    font-size: 13px;
+    color: white;
+    margin-top: 15px;
+    margin-left: -3px;
+}
+.img-circle{
+    text-align: center;
+    background-color:rgb(46, 131, 202);
+    height: 48px;
+    width: 48px;
+    border-radius: 28px;
+    vertical-align: middle;
+    line-height: 48px;
+    transform: rotateY(180deg);
+}
+.img-icon{
+    font-size: 20px!important;
+    color: white;
+}
+.empty-menu-wrapper{
+    height: 613px;
+    background-color: black;
 }
