@@ -1,0 +1,22 @@
+{
+  "name": "netbramha-assignment",
+  "version": "1.0.0",
+  "description": "front-end designing: psd to html conversion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jithinbalakrishnan/netbramha.git"
+  },
+  "author": "jithin balakrishnan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jithinbalakrishnan/netbramha/issues"
+  },
+  "homepage": "https://github.com/jithinbalakrishnan/netbramha#readme",
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  }
+}

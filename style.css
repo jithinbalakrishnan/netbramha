@@ -425,3 +425,31 @@ label{
 .line-xs{
     display: none;
 }
+/* Menubar CSS*/
+
+.img-flex{
+    display:inline-flex;;
+}
+.img-box{
+    text-align: center;
+    display: block;
+    padding-top: 19px;
+    background-color: rgb(90, 90, 90);
+}
+.plus-btn{
+    height: 22px;
+    margin-top: 12px;
+}
+.logo-left{
+    margin-left: -15px;
+}
+.img-box-white{
+    text-align: center;
+    display: block;
+    padding-top: 12px;
+    background-color: #ECEFF1;
+    border-left: 4px solid #43A047;
+}
+.padding-below{
+    padding-bottom: 12px;
+}
