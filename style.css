@@ -27,13 +27,15 @@
         height: 1325px!important;
     }
     .shw-btn{
-        margin-top: 200px!important;
-        margin-right: 14px!important;
+        margin-top: 173px!important;
+
     }
     .line-sm{
         display: block!important;
     }
-
+    .line-tab{
+        display: block!important;
+    }
     .empty-menu-wrapper{
         height: 1055px!important;
     }
@@ -51,7 +53,7 @@
         margin: auto;
     }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 550px) {
     body{
         padding: 0!important;
         margin: 0!important;
@@ -106,7 +108,6 @@
     }
     .end-line{
         width: 90%!important;
-        margin-left: 39px!important;
         margin-top: 70px!important;
     }
     .files-wrapper-2{
@@ -144,16 +145,19 @@
         margin-top: -35px!important;
     }
     .dp-logo-sm{
-        margin-left: 30px!important;
+        margin-left: 19%!important;
     }
     .dp-content-sm{
-        margin-left: 30px!important;
+        margin-left: 19%!important;
     }
     .shw-btn{
-        margin-top: 185px!important;
-        margin-right: 8px!important;
+        margin-top: 178px!important;
+
     }
     .line-sm{
+        display: none!important;
+    }
+    .line-tab{
         display: none!important;
     }
     .line-xs{
@@ -161,6 +165,9 @@
     }
     .v-line-3{
         display: none!important;
+    }
+    .plus-hide{
+        visibility: hidden;
     }
 
 }
@@ -226,7 +233,7 @@ input[type=text] {
 .radio-btn-wrapper{
     margin-top: 6px;
 }
-input[type='radio']:after {
+input[type='checkbox']:after {
     width: 8px;
     height: 8px;
     top: 0;
@@ -239,7 +246,7 @@ input[type='radio']:after {
     border: 3px solid #d1d3d1;
 }
 
-input[type='radio']:checked:after {
+input[type='checkbox']:checked:after {
     width: 8px;
     height: 8px;
     top: 0;
@@ -478,14 +485,13 @@ label{
     text-decoration: line-through;
 }
 .shw-btn{
-    border: 1px solid rgba(0, 0, 0, 0.1);
     width: 75%;
     float: right;
-    margin-right: 38px;
+    margin-right: 4%;
     margin-top: 100px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.1);
-    padding: 5px 5px;
+    padding: 7px 7px;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: bold;
@@ -497,7 +503,9 @@ label{
 .line-xs{
     display: none;
 }
-
+.line-tab{
+    display: none;
+}
 /* Menubar CSS*/
 
 .img-flex{
@@ -513,7 +521,7 @@ label{
     line-height: 22px;
     vertical-align: middle;
     background-color: black;
-    color: white;
+    color: rgba(204, 204, 204, 0.51);
     height: 22px;
     width: 22px;
     border-radius: 37px;
@@ -525,7 +533,7 @@ label{
     line-height: 22px;
     vertical-align: middle;
     background-color: grey;
-    color: white;
+    color: rgba(204, 204, 204, 0.8);
     height: 22px;
     width: 22px;
     border-radius: 37px;
@@ -562,7 +570,7 @@ label{
     margin-top: 15px;
     margin-left: -3px;
 }
-.img-circle{
+.img-circle-1{
     text-align: center;
     background-color:rgb(46, 131, 202);
     height: 48px;
@@ -571,6 +579,19 @@ label{
     vertical-align: middle;
     line-height: 48px;
     transform: rotateY(180deg);
+}
+.img-circle{
+    text-align: center;
+    background-color:grey;
+    height: 48px;
+    width: 48px;
+    border-radius: 28px;
+    vertical-align: middle;
+    line-height: 48px;
+}
+.img-icon-1{
+    font-size: 20px!important;
+    color:rgba(204, 204, 204, 0.51) ;
 }
 .img-icon{
     font-size: 20px!important;
