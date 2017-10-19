@@ -11,33 +11,44 @@
     }
     .end-line{
         width: 90%!important;
-        margin-left: 60px!important;
         margin-top: 70px!important;
     }
-    .end-line-2{
-        margin-top: 220px!important;
-    }
+
     .end-line-3{
         margin-top: 48px!important;
     }
     .end-line-4{
-        margin-top: 80px!important;
+        margin-top: 99px!important;
     }
     .search-content {
-        height: 1080px!important;
+        height: 1460px!important;
     }
     .preview-search-results {
-        height: 950px!important;
+        height: 1325px!important;
     }
     .shw-btn{
-        margin-top: 145px!important;
+        margin-top: 200px!important;
         margin-right: 14px!important;
     }
     .line-sm{
         display: block!important;
     }
+
     .empty-menu-wrapper{
-        height: 675px!important;
+        height: 1055px!important;
+    }
+    .files-wrapper-2{
+        display: none!important;
+    }
+    .file-wrapper-content-sm{
+        display: block!important;
+    }
+    .v-line-3{
+        display: block!important;
+        width: 2%;
+        height: 270px;
+        background-color: #d1d3d1;
+        margin: auto;
     }
 }
 @media only screen and (max-width: 480px) {
@@ -147,6 +158,9 @@
     }
     .line-xs{
         display: block!important;
+    }
+    .v-line-3{
+        display: none!important;
     }
 
 }
@@ -364,8 +378,8 @@ label{
     height: 1px;
     background-color: rgba(128, 128, 128, 0.15);
     width: 90%;
-    margin-left: 91px;
     margin-top: 51px;
+    margin-left: 10%;
 
 }
 .sc-shot-img{
@@ -403,6 +417,9 @@ label{
     height: 210px;
     background-color:#d1d3d1;
     margin: auto;
+}
+.v-line-3{
+    display: none;
 }
 .file-wrapper-content-sm{
     margin-top: 16px;
@@ -480,6 +497,7 @@ label{
 .line-xs{
     display: none;
 }
+
 /* Menubar CSS*/
 
 .img-flex{
