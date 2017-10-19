@@ -360,11 +360,20 @@ a{
     color: rgba(0, 0, 0, 0.6);
 }
 .end-line-4{
-    margin-top: 45px;
+    margin-top: 70px;
 }
 .dp-wrapper-sm{
     display: none;
 }
 .dp-wrapper-content-sm{
     margin-left: 35px;
+}
+.file-wrapper-content-bottom{
+    margin-top: 12px;
+}
+.para-gap{
+    margin-top: 15px;
+}
+.text-strike{
+    text-decoration: line-through;
 }
