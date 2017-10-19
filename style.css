@@ -33,6 +33,9 @@
     .line-sm{
         display: block!important;
     }
+    .empty-menu-wrapper{
+        height: 675px!important;
+    }
 }
 @media only screen and (max-width: 480px) {
     body{
@@ -223,7 +226,7 @@ label{
     height: 15px;
     background-color:#d1d3d1;
     margin: auto;
-    margin-top: -4px
+
 }
 .img-size {
     height: 25px;
@@ -246,6 +249,15 @@ label{
 .file-wrapper-content{
     display: flex;
     margin-top: 16px;
+}
+.file-icon{
+    background-color: rgb(46, 131, 202);
+    height: 35px;
+    width: 35px;
+    border-radius: 28px;
+    vertical-align: middle;
+    line-height: 35px;
+    margin: auto;
 }
 .docx-img{
     height: 45px;
